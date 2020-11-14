@@ -1,0 +1,49 @@
+.section-redes{
+    width: 100%;
+    background-color: rgb(6, 39, 100);
+
+    .container{
+        color: white;
+
+        
+        .info{
+            display: flex;
+
+            span{
+                margin: 0 10px 0 5px;
+                font-size: .8rem;
+            }
+        }
+    }
+
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        i{
+            margin: 10px 3px;
+            border: 1px solid white;
+            width: 25px;
+            height: 25px;
+            border-radius: 5px;
+            text-align: center;
+            display: grid;
+            align-items: center;
+        }
+    }
+
+}
+
+@media screen and (max-width: 547px){
+    .section-redes div{
+        justify-content: center;
+        align-items: center;
+    }
+}
